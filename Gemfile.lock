@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.0.4.7)
+			activesupport (6.0.4.7)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -240,6 +240,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+    nokogumbo (2.0.4)
     nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -288,7 +289,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (>= 215)
+  github-pages (>= 224)
   html-proofer (>= 3.18.2)
   tzinfo-data
 
