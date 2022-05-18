@@ -16,6 +16,7 @@ GEM
     colorator (1.1.0)
     commonmarker (0.23.4)
     concurrent-ruby (1.1.10)
+          ruby-enum (~> 0.5)
     dnsruby (1.61.9)
       simpleidn (~> 0.1)
     em-websocket (0.5.3)
@@ -240,6 +241,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.15.0)
     multipart-post (2.1.1)
+
     nokogumbo (2.0.4)
     nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
@@ -258,6 +260,10 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.26.0)
+
+    ruby-enum (0.9.0)
+      i18n
+
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
@@ -280,7 +286,9 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
+
     unf_ext (0.0.8.1)
+
     unicode-display_width (1.8.0)
     yell (2.2.2)
     zeitwerk (2.5.4)
@@ -289,7 +297,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+
   github-pages (>= 224)
+
   html-proofer (>= 3.18.2)
   tzinfo-data
 
